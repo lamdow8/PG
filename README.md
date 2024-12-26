@@ -4,14 +4,14 @@
 选择主页可以查看当前PG包版本  
 在线接口已经默认集成了tgsearch的在线服务器，无需任何tg配置  
 使用自己的本地包可以填写tgsearch服务器地址：  
-http://tg.fish2018.us.kg (未开启视频下载)  
+http://tg.devopser.org
 http://tg.uu8.pro  (@DH 分享)  
 
 在线获取TG session，扫码登录支持两步验证:  
 https://tg.uu8.pro/ (@DH 分享)  
 
 ```
-http://www.fish2018.us.kg/p/jsm.json
+http://tv.devopser.org/p/jsm.json
 ```
 
 ## PG包下载地址
@@ -35,7 +35,7 @@ https://gh-proxy.llyke.com/https://raw.githubusercontent.com/fish2018/PG/main/pg
 ```
 
 ## pg包今日更新内容
-PG包[README.txt](http://www.fish2018.us.kg/p/README.txt)  
+PG包[README.txt](http://tv.devopser.org/p/README.txt)  
 ```text
 对不起，我是阿里不限速网盘资源全秒播
 讨论组:  https://t.me/pandagroovechat
@@ -69,7 +69,7 @@ https://gh-proxy.llyke.com/https://raw.githubusercontent.com/fish2018/PG/main/tg
 ```
 
 ## tgsearch包今日更新内容
-[README.txt](http://www.fish2018.us.kg/README.txt)    
+[README.txt](http://tv.devopser.org/README.txt)    
 [教程](https://github.com/fish2018/lib) (@奥利给 @jack)  
 [安装脚本](https://github.com/DDS-Derek/alist-tvbox-script)  (@DDS-Derek)  
 
@@ -121,7 +121,7 @@ map $http_user_agent $browser {
 server {
     listen 80;
     charset 'utf-8';
-    server_name www.fish2018.us.kg;
+    server_name tv.devopser.org;
     root /home/fish2018;
 
     # 允许特定的文件正常访问
@@ -156,7 +156,7 @@ tgsearch
 cat /etc/nginx/conf.d/tgsearch.conf 
 server {
   listen 80;
-  server_name tg.fish2018.us.kg;
+  server_name tg.devopser.org;
 
   location / {
     proxy_pass http://127.0.0.1:10199/;
