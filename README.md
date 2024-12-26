@@ -4,7 +4,7 @@
 选择主页可以查看当前PG包版本  
 在线接口已经默认集成了tgsearch的在线服务器，无需任何tg配置  
 使用自己的本地包可以填写tgsearch服务器地址：  
-http://tg.devopser.org
+http://tg.devopser.org  
 http://tg.uu8.pro  (@DH 分享)  
 
 在线获取TG session，扫码登录支持两步验证:  
